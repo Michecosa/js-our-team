@@ -17,3 +17,7 @@ img {
   height: 100%;
   object-fit: cover;
 }
+
+.bg-super-dark {
+  background-color: black;
+}

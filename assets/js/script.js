@@ -47,11 +47,11 @@ function createCard({name, role, img, email}) {
   col.className = "col-4";
   col.innerHTML = 
   `
-<div class="h-100 text-white shadow-sm d-flex flex-row">
+<div class="h-100 w-100 text-white shadow-sm d-flex flex-row">
   <div class="col-4">
   <img src="./assets/${img}" alt="${name} class="img-fluid">
   </div>
-  <div class="card-body bg-dark d-flex flex-column justify-content-between ps-3 py-3">
+  <div class="card-body bg-super-dark d-flex flex-column justify-content-between px-3 py-3">
     <h5 class="card-title">${name}</h5>
     <p class="card-text">${role}</p>
     <p class="text-info m-0">${email}</p>

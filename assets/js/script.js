@@ -49,7 +49,7 @@ function createCard({name, role, img, email}) {
   `
 <div class="h-100 w-100 text-white shadow-sm d-flex flex-row">
   <div class="col-4">
-  <img src="./assets/${img}" alt="${name} class="img-fluid">
+    <img src="./assets/${img}" alt="${name}">
   </div>
   <div class="card-body bg-super-dark d-flex flex-column justify-content-between px-3 py-3">
     <h5 class="card-title">${name}</h5>

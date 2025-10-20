@@ -23,6 +23,30 @@
       </div>
     </header>
     <main>
+      <div class="text-center mt-5">
+        <h3>Join the team!</h3>
+      </div>
+      <form>
+        <div class="m-5 mt-3">
+          <div class="row g-2 align-items-end justify-content-center">
+            <div class="col-md-3">
+              <label for="name" class="form-label">Nome</label>
+              <input type="text" id="name" class="form-control" placeholder="Inserisci nome" required>
+            </div>
+            <div class="col-md-3">
+              <label for="role" class="form-label">Ruolo</label>
+              <input type="text" id="role" class="form-control" placeholder="Inserisci ruolo" required>
+            </div>
+            <div class="col-md-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" class="form-control" placeholder="Inserisci email" required>
+            </div>
+            <div class="col-12 col-md-4 mt-4">
+              <button type="submit" id="addCardBtn" class="btn btn-success w-100">Add Card</button>
+            </div>
+          </div>
+        </div>
+      </form>
       <div class="my-3">
         <!-- Zona card -->
         <div id="cardsRow" class="row g-4"></div>

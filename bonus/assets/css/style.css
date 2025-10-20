@@ -37,3 +37,27 @@ img {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 0 1.5rem;
+}
+
+.card-col {
+  flex: 0 0 calc(33.333% - 1rem);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card-col {
+    flex: 0 0 calc(50% - 0.75rem);
+  }
+}
+
+@media (max-width: 576px) {
+  .card-col {
+    flex: 0 0 100%;
+  }
+}

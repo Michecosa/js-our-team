@@ -31,3 +31,10 @@ img {
   flex: 1;
   min-width: 0;
 }
+
+
+.card-body * {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

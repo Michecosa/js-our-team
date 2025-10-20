@@ -89,7 +89,7 @@ form.addEventListener("submit", (event) => {
     name,
     role,
     email,
-    img: `https://picsum.photos/100/100?random=${randomNum}`
+    img: `https://picsum.photos/400/400?random=${randomNum}`
   };
   
   const cardElement = createCard(newCard);

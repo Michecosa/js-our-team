@@ -41,7 +41,6 @@ const teamMembers = [
 const container = document.getElementById("cardsRow");
 
 // Funzione che crea l'elemento card
-// Funzione che crea l'elemento card
 function createCard({name, role, img, email}) {
   const col = document.createElement('div');
 

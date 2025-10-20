@@ -54,7 +54,7 @@ function createCard({name, role, img, email}) {
   </div>
   <div class="card-body bg-super-dark d-flex flex-column justify-content-between px-3 py-3">
     <h5 class="card-title">${name}</h5>
-    <p class="card-text">${role}</p>
+    <p class="m-0">${role}</p>
     <p class="text-info m-0">${email}</p>
   </div>
 </div>

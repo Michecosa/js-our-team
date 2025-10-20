@@ -21,3 +21,13 @@ img {
 .bg-super-dark {
   background-color: black;
 }
+
+.card-img-wrapper {
+  flex: 0 0 100px;
+  overflow: hidden;
+}
+
+.card-body {
+  flex: 1;
+  min-width: 0;
+}

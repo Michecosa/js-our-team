@@ -44,16 +44,16 @@ const container = document.getElementById("cardsRow");
 function createCard({name, role, img, email}) {
   const col = document.createElement('div');
 
-  col.className = "col-4";
+  col.className = "col-4 mb-1";
   col.innerHTML = 
   `
-<div class="h-100 w-100 text-white shadow-sm d-flex flex-row">
-  <div class="col-4">
+<div class="card-wrapper h-100 w-100 text-white shadow-sm d-flex flex-row">
+  <div class="card-img-wrapper">
     <img src="./assets/${img}" alt="${name}">
   </div>
   <div class="card-body bg-super-dark d-flex flex-column justify-content-between px-3 py-3">
     <h5 class="card-title">${name}</h5>
-    <p class="card-text">${role}</p>
+    <p class="m-0">${role}</p>
     <p class="text-info m-0">${email}</p>
   </div>
 </div>

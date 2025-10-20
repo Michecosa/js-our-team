@@ -46,17 +46,20 @@ img {
 }
 
 .card-col {
-  flex: 1 1 calc((100% - 2 * 1.5rem) / 3);
+  flex: 0 0 calc((100% - 3rem) / 3);
+  max-width: calc((100% - 3rem) / 3);
 }
 
 @media (max-width: 768px) {
   .card-col {
-    flex: 1 1 calc((100% - 1.5rem) / 2);
+    flex: 0 0 calc((100% - 1.5rem) / 2);
+    max-width: calc((100% - 1.5rem) / 2);
   }
 }
 
 @media (max-width: 576px) {
   .card-col {
-    flex: 1 1 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 }

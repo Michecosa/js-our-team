@@ -66,3 +66,13 @@ for (let i = 0; i < teamMembers.length; i++) {
   let card = createCard(data);
   container.appendChild(card);
 }
+
+
+/* 
+  * Aggiungo nuova card *
+*/
+
+const nameInput = document.getElementById("name");
+const roleInput = document.getElementById("role");
+const emailInput = document.getElementById("email");
+const form = document.querySelector('form');

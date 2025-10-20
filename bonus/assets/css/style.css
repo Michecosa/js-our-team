@@ -8,6 +8,11 @@
   --cyan: #03ffff;
 }
 
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 h1 {
   color: var(--red);
 }

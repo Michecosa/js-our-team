@@ -45,7 +45,7 @@ const container = document.getElementById("cardsRow");
 function createCard({name, role, img, email}) {
   const col = document.createElement('div');
 
-  col.className = "col-12 col-md-6 col-lg-4 mb-3";
+  col.className = "col-12 col-md-6 col-lg-4 mb-1";
   col.innerHTML = 
   `
 <div class="card-wrapper h-100 w-100 text-white shadow-sm d-flex flex-row">
